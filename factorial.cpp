@@ -19,9 +19,9 @@ long double factorial(int n) {
 
 int main() {
 
-    std::cout << factorial(7) << std::endl;
-    std::cout << factorial(5) << std::endl;
-    std::cout << factorial(120) << std::endl;
+    std::cout << "Factorial of 7 is " << factorial(7) << std::endl;
+    std::cout << "Factorial of 5 is " << factorial(5) << std::endl;
+    std::cout << "Factorial of 120 is " << factorial(120) << std::endl;
 
     return 0;
 }
