@@ -9,7 +9,7 @@ std::string reverse(std::string str) {
 }
 
 int main() {
-    std::cout << reverse("Ezekiel") << std::endl;
-    std::cout << reverse("Reverse this") << std::endl;
-    std::cout << reverse("not a palindrome") << std::endl;
+    std::cout << "Reverse 'Ezekiel': " << reverse("Ezekiel") << std::endl;
+    std::cout << "Reverse 'Reverse this': " << reverse("Reverse this") << std::endl;
+    std::cout << "Reverse 'not a palindrome': " << reverse("not a palindrome") << std::endl;
 }
